@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/app-service-web-dotnet-manage.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/resource-manager-dotnet-resources-and-groups.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
