@@ -1,19 +1,19 @@
 ---
 services: azure-resource-manager
-platforms: ruby
+platforms: dotnet
 author: devigned
 ---
 
-# Manage Azure resources and resource groups with Ruby
+# Manage Azure resources and resource groups with .NET
 
 This sample explains how to manage your
 [resources and resource groups in Azure](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/#resource-groups)
-using the Azure Ruby SDK.
+using the Azure .NET SDK.
 
 **On this page**
 
 - [Run this sample](#run)
-- [What is example.rb doing?](#example)
+- [What is program.cs doing?](#example)
     - [List resource groups](#list-groups)
     - [Create a key vault in the resource group](#create-resource)
     - [List resources within the group](#list-resources)
@@ -58,7 +58,7 @@ using the Azure Ruby SDK.
     ```
 
 <a id="example"></a>
-## What is example.rb doing?
+## What is program.cs doing?
 
 The sample walks you through several resource and resource group management operations.
 It starts by setting up a ResourceManagementClient object using your subscription and credentials.
@@ -115,7 +115,7 @@ resourceClient.ResourceGroups.ListResources(resourceGroupName);
 ### Export the resource group template
 
 You can export the resource group as a template and then use that
-to [deploy your resources to Azure](https://azure.microsoft.com/documentation/samples/resource-manager-ruby-template-deployment/).
+to [deploy your resources to Azure](https://azure.microsoft.com/documentation/samples/resource-manager-dotnet-template-deployment/).
 
 ```csharp
 var exportResult = resourceClient.ResourceGroups.ExportTemplate(
