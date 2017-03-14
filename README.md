@@ -42,7 +42,7 @@ using the Azure .NET SDK.
     [PowerShell](https://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal/)
     or [the portal](https://azure.microsoft.com/documentation/articles/resource-group-create-service-principal-portal/).
 
-1. Add these environment variables to your .env file using your subscription id and the tenant id, client id and client secret from the service principle that you created. 
+1. Export these environment variables using your subscription id and the tenant id, client id and client secret from the service principle that you created. 
 
     ```
     export AZURE_TENANT_ID={your tenant id}
